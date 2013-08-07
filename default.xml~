@@ -14,8 +14,6 @@
   <remote  name="cr"
            fetch="https://github.com/CarbonDev/"
            sync-j="4" />
-  <remote  name="cr-tf300t"
-           fetch="https://github.com/carbon-tf300t/"/>
 
   <remote  name="tm"
            fetch="git://github.com/TheMuppets/" />
@@ -52,7 +50,6 @@
   <project path="device/asus/flo" name="android_device_asus_flo" remote="cr" revision="jb3" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="android_device_asus_grouper" remote="cr" revision="jb3" />
-<project path="device/asus/tf300t" name="device_asus_tf300t" remote="cr-tf300t" revision="jb-4.2" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -317,7 +314,6 @@
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
   <project path="kernel/asus/flo" name="android_kernel_asus_flo" remote="cr" revision="jb3" />
-<project path="kernel/asus/tf300t" name="kernel_asus_tf300t" remote="cr-tf300t" revision="jb-4.2" />
   <project path="kernel/lge/mako" name="CyanogenMod/lge-kernel-mako" remote="cm" revision="cm-10.2" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
   <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-10.2" />
@@ -450,7 +446,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/audience" name="proprietary_vendor_audience" remote="tm" revision="cm-10.1" />
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cr-tf300t" revision="jb3" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cr" revision="jb3" />
   <project path="vendor/bn" name="proprietary_vendor_bn" remote="tm" revision="cm-10.1" />
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="cr" revision="jb3" />
   <project path="vendor/carbon" name="android_vendor_carbon" remote="cr" revision="jb3" />
