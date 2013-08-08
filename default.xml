@@ -141,7 +141,6 @@
   <project path="device/samsung/tuna" name="CarbonDev/android_device_samsung_tuna" remote="cr" revision="jb2" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/armzipalign" name="CarbonDev/platform_external_armzipalign" remote="cr" revision="master" />
-=======
   <project path="android" name="android" remote="cr" revision="jb3" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="cr" revision="jb3" groups="pdk" />
